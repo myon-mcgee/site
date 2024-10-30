@@ -1,6 +1,10 @@
 .main{
   margin-left: 110px;
 }
+
+body{
+  background-color: rgb(255, 247, 237);
+}
 /*.App {
   text-align: center;
 }
