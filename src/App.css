@@ -2,6 +2,12 @@
   margin-left: 110px;
 }
 
+@media screen and (max-width: 1024px){
+  .main{
+    margin-left: 0;
+  }
+}
+
 body{
   background-color: rgb(255, 247, 237);
 }

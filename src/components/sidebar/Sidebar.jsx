@@ -4,6 +4,7 @@ import Logo from "../../assets/Computer Science.png";
 
 const Sidebar = () => {
     return(
+        <>
         <aside className='aside'>
             <a href="#home" className="nav__logo">
                 <img src={Logo} alt="" />
@@ -51,6 +52,11 @@ const Sidebar = () => {
                 </span>
             </div>
         </aside>
+
+        <div className="nav__toggle">
+            <i className="icon-menu"></i>
+        </div>
+        </>
     )
 }
 

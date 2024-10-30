@@ -14,10 +14,13 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
-            natoque penatibus et magnis dis parturient montes, nascetur 
-            ridiculus mus.
+            I am a recent graduate with a B.S. in Computer Science and minor
+            in Japanese. Currently, I am searching for a job relating to
+            Software Engineering. In the meantime, I will be working on projects 
+            and posting them on this site. Please feel free to check them out! 
+            If you have any information about jobs or want to know more about me,
+            please do not hesitate to download my resume or fill out a form to contact
+            me below!
             </p>
             {/*<a href="" className="btn">Download CV</a>*/}
           </div>

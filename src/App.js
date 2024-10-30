@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Sidebar />
-    <main classnName='main'>
+    <main className='main'>
       <Home />
       <About />
       <Resume />
