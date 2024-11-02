@@ -1,7 +1,37 @@
 import React from 'react';
 import "./contact.css";
+import Swal from 'sweetalert2'
 
 const Contact = () => {
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "35870701-0e8a-4010-b15a-dc6116770346");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Email Sent!",
+        icon: "success"
+      });
+    }
+  };
+
+
   return (
     <section className="contact container section" id="contact">
       <h2 className="section__title">Get In Touch</h2>
@@ -12,35 +42,34 @@ const Contact = () => {
           <p className="contact__details">Send me an email!</p>
         </div>
 
-        <form action="" className="contact__form">
+        <form onSubmit={onSubmit} className="contact__form">
           <div className="contact__form-group">
             <div className="contact__form-div">
-              <input type="text" className="contact__form-input" 
+              <input name= "name" type="text" className="contact__form-input" 
               placeholder='Insert your name'/>
             </div>
 
             <div className="contact__form-div">
-              <input type="email" className="contact__form-input" 
+              <input name= "email" type="email" className="contact__form-input" 
               placeholder='Insert your email'/>
             </div>
           </div>
 
           <div className="contact__form-div">
-              <input type="text" className="contact__form-input" 
+              <input name="subject" type="text" className="contact__form-input" 
               placeholder='Insert your subject'/>
           </div>
 
           <div className="contact__form-div contact__form-area">
-              <textarea name="" 
+              <textarea name="msg" 
               id="" 
               cols="30" 
               rows="10" 
               className="contact__form-input" 
-              placeholder="Write your
-              message"></textarea>
+              placeholder="Write your message"></textarea>
           </div>
 
-          <button className="btn">Send Message</button>
+          <button className="btn" type="submit">Send Message</button>
         </form>
       </div>
     </section>
