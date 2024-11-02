@@ -1,6 +1,6 @@
 {
   "homepage": "http://myon-mcgee.github.io/site",
-  "name": "myon-mcgee.github.io",
+  "name": "site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
