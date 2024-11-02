@@ -75,3 +75,12 @@
         left: 0;
     }
 }
+
+@media screen and (max-width: 500px){
+    .aside{
+        display: none;
+    }
+    .nav__toggle{
+        display: none;
+    }
+}
