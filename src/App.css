@@ -5,3 +5,9 @@
 body{
   background-color: rgb(255, 247, 237);
 }
+
+@media screen and (max-width: 1024){
+  .main{
+    margin-left: 0;
+  }
+}
