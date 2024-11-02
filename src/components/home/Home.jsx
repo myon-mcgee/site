@@ -15,7 +15,7 @@ const Home = () => {
           Computer Science Major <br />
           Japanese Minor</span>
         <HeaderSocials/>
-        <a href="#contact" className="btn">My wallet ain't got it</a>
+        <a href="#contact" className="btn">Hire Me</a>
         <ScrollDown/>
       </div>
     </section>
