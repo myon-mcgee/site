@@ -57,7 +57,7 @@
     border-radius: 1rem;
     position: relative;
 }
-
+/*
 @keyframes ani-mouse{
     0%{
         top: 29%;
@@ -71,7 +71,7 @@
     100%{
         top: 29%;
     }
-}
+}*/
 
 .wheel{
     background-color: var(--title-color);
