@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/site/static/css/main.500ff973.css",
-    "main.js": "/site/static/js/main.bbd82e0e.js",
+    "main.js": "/site/static/js/main.d23837c5.js",
     "static/js/453.adc34edb.chunk.js": "/site/static/js/453.adc34edb.chunk.js",
     "static/media/myon.png": "/site/static/media/myon.5306d9257b39f8dacd29.png",
     "static/media/Computer Science.png": "/site/static/media/Computer Science.d0d23b3595dc16af47dc.png",
@@ -16,11 +16,11 @@
     "static/media/dots-bg.svg": "/site/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/site/index.html",
     "main.500ff973.css.map": "/site/static/css/main.500ff973.css.map",
-    "main.bbd82e0e.js.map": "/site/static/js/main.bbd82e0e.js.map",
+    "main.d23837c5.js.map": "/site/static/js/main.d23837c5.js.map",
     "453.adc34edb.chunk.js.map": "/site/static/js/453.adc34edb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.500ff973.css",
-    "static/js/main.bbd82e0e.js"
+    "static/js/main.d23837c5.js"
   ]
 }
