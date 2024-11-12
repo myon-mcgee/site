@@ -13,9 +13,11 @@ const Home = () => {
         <span className="home__education">
           Rose-Hulman Institute of Technology Alumni <br />
           Computer Science Major <br />
-          Japanese Minor</span>
+          Japanese Minor <br />
+          (219) 983-2741
+        </span>
         <HeaderSocials/>
-        <a href="#contact" className="btn">Hire Me</a>
+        <a href="#contact" className="btn">Contact Me</a>
         <ScrollDown/>
       </div>
     </section>
