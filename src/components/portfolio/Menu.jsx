@@ -11,7 +11,7 @@ const Menu = [
     {
       id: 1,
       image: movie,
-      title: "Movie Recommendation",
+      title: "Movie Recommender",
       category: "Machine Learning",
       link: "https://github.com/myon-mcgee/MovieRecommendations",
     }
