@@ -22,14 +22,14 @@ const Portfolio = () => {
         <span className="work__item" onClick={() => filterItem
           ("Creative")}>Creative</span>
         <span className="work__item" onClick={() => filterItem
-          ("Art")}>Art</span>
+          ("Machine Learning")}>Machine Learning</span>
         <span className="work__item" onClick={() => filterItem
-          ("Design")}>Design</span>
+          ("Web Design")}>Web Design</span>
       </div>
 
       <div className="work__container grid">
         {items.map((elem) => {
-          const{id, image, title, category} = elem;
+          const{id, image, title, category, link} = elem;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
@@ -39,7 +39,7 @@ const Portfolio = () => {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
+              <a href={link} className="work__button">
                 <i className="icon-link work__button-icon"></i>
               </a>
             </div>

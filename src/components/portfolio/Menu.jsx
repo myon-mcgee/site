@@ -1,5 +1,5 @@
 /* eslint-disable no-sparse-arrays */
-import Work1 from "../../assets/work-1.svg"
+import movie from "../../assets/movieRec.png"
 import Work2 from "../../assets/work-2.svg"
 import Work3 from "../../assets/work-3.svg"
 import Work4 from "../../assets/work-4.svg"
@@ -8,13 +8,14 @@ import Work6 from "../../assets/work-6.svg"
 
 
 const Menu = [
-    /*{
-      id: 1,
-      image: Work1,
-      title: "Project Management Illustration",
-      category: "Design",
-    },
     {
+      id: 1,
+      image: movie,
+      title: "Movie Search and Recommendation",
+      category: "Machine Learning",
+      link: "https://github.com/myon-mcgee/MovieRecommendations",
+    }
+    /*{
       id: 2,
       image: Work2,
       title: "Guest App Walkthrough Screens",
